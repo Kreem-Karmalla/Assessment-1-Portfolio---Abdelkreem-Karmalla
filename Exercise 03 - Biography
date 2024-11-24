@@ -1,0 +1,11 @@
+biography = {"name": "Jack", "Hometown": "Ajman", "age": 20}
+for value in biography.values():
+    print(value)
+
+# Or
+
+print("Insert your name, homwtown, and age")
+biography2 = {"name": input(), "Hometown": input(), "age": input(int())}
+for key, value in biography2.items():
+    print(f"{key}: {value}")
+

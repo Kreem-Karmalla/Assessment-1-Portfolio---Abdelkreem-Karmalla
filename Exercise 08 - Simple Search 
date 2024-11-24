@@ -1,0 +1,7 @@
+names = ["Jake", "Zac", "Ian", "Ron", "Sam", "Dave"]
+print("Search name: ")
+name = input()
+if name in names:
+    print("Found in index 4: ", names[4])
+else:
+    print("Not Found")

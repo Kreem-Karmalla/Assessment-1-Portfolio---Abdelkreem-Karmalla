@@ -1,0 +1,24 @@
+print("First Count")
+count = range(51)
+for numbers in count:
+    print(numbers)
+print("-")
+print("Second Count")
+numbers2 = 50
+while numbers2 >= 0:
+    print(numbers2)
+    numbers2 = numbers2 - 1
+print("-")
+print("Third Count")
+for numbers3 in range(30, 51):
+    print(numbers3)
+print("-")
+print("Fourth Count")
+numbers4 = 50
+while numbers4 >= 10:
+    print(numbers4)
+    numbers4 = numbers4 - 2
+print("-")
+print("Fifth Count")
+for numbers5 in range(100, 201, 5):
+    print(numbers5)

@@ -1,0 +1,83 @@
+print("Welcome to Geography Quiz Europe Edition!")
+answer = input("What is the capital of France? ")
+score = 0
+if answer.upper() == "PARIS":
+    print("Correct Answer!")
+    score +=1
+else:
+    print("Wrong Answer")
+print()
+print("Next Question:")
+answer2 = input("What is the capital of Germany? ")
+if answer2.upper() == "BERLIN":
+    print("Well Done")
+    score +=1
+else:
+    print("Wrong")
+print()
+print("Question 3:")
+answer3 = input("What is the capital of England? ")
+if answer3.upper() == "LONDON":
+    print("Nice")
+    score +=1
+else:
+    print("incorrect")
+print()
+print("Question 4:")
+answer4 = input("What is the capital of spain? ")
+if answer4.upper() == "MADRID":
+    print("Correct")
+    score +=1
+else:
+    print("Wrong")
+print()
+print("Question 5:")
+answer5 = input("What is the capital of Italy? ")
+if answer5.upper() == "ROME":
+    print("Good Job")
+    score +=1
+else:
+    print("Incorrect Answer")
+print()
+print("Question 6:")
+answer6 = input("What is the capital of Norway? ")
+if answer6.upper() == "OSLO":
+    print("Well Done")
+    score +=1
+else:
+    print("Wrong")
+print()
+print("Question 7:")
+answer7 = input("What is the capital of Sweden? ")
+if answer7.upper() == "STOCKHOLM":
+    print("Nice")
+    score +=1
+else:
+    print("Incorrect")
+print()
+print("Queestion 8:")
+answer8 = input("What is the capital of Finlind? ")
+if answer8.upper() == "HELSINKI":
+    print("Superb")
+    score +=1
+else:
+    print("Wrong Answer")
+print()
+print("Question 9:")
+answer9 = input("What is the capital of Poland? ")
+if answer9.upper() == "WARSAW":
+    print("Correct Answer")
+    score +=1
+else:
+    print("Incorrect")
+print()
+print("Last Question:")
+answer10 = input("What is the capital of Austria? ")
+if answer10.upper() == "VIENNA":
+    print("Well Done")
+    score +=1
+else:
+    print("Wrong Answer")
+print()
+final_score = score 
+print("Your final score is " + str(score) + " out of 10")
